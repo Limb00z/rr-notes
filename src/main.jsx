@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Details from './pages/Details.jsx'
+import Index from './pages/Details/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Details />
+    <Index />
   </React.StrictMode>,
 )
