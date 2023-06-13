@@ -6,7 +6,8 @@ function Index() {
     <Container>
        <h1>Teste</h1>
        
-       <Button/>
+       <Button title={"Botão"}/>
+       <Button title={"Login"} loading/>
     </Container>
   )
 }
