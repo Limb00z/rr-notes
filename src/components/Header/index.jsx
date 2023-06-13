@@ -1,10 +1,16 @@
-import { Container } from "./styles";
-
+import { Container, Profile } from "./styles";
 
 export function Header() {
-    return (
-        <Container>
+  return (
+    <Container>
+      <Profile>
+        <img src="https://github.com/Limb00z.png" alt="Foto do usuário" />
 
-        </Container>
-    );
+        <div>
+          <span>Ben-vindo, </span>
+          <strong>Ruan Reis</strong>
+        </div>
+      </Profile>
+    </Container>
+  );
 }
