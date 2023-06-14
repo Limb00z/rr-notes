@@ -5,7 +5,7 @@ export const Container = styled.div`
     display:Flex;
     align-items: center;
 
-    background-color: ${({theme}) => theme.COLORS.BRACKGROUND_900} ;
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_900} ;
     color: ${({theme}) => theme.COLORS.GRAY_300};
 
     margin-bottom: 8px;
@@ -25,9 +25,10 @@ export const Container = styled.div`
             ${({theme}) => theme.COLORS.GRAY_300}
         }
 
-        >svg{
-            margin-left: 16px;
-        }
+       
     }
 
+    >svg{
+            margin-left: 16px;
+        }
 `;

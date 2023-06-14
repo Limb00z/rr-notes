@@ -53,15 +53,21 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
 grid-area: search;
+padding: 64px 64px 0;
+
 
 `;
 
-export const Content = styled.button`
+export const Content = styled.div`
     grid-area: content;
+    padding:  0 64px;
+    border : none ;
+    overflow-y: auto;
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800}
 
 `;
 
-export const NewNote = styled.div`
+export const NewNote = styled.button`
 grid-area: newnote;
 
 
