@@ -2,6 +2,7 @@ import { Container, Links } from "./style";
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
 import { Section } from "../../components/Section";
+import { Tag } from "../../components/Tag";
 
 function Index() {
   return (
@@ -19,12 +20,13 @@ function Index() {
             <a href="#">Coisa nova</a>
           </li>
         </Links>
-        </Section>
-        
-        <Section title="Marcadores">
-           
-        </Section>
-        
+      </Section>
+
+      <Section title="Marcadores">
+        <Tag title="react" />
+        <Tag title="node" />
+      </Section>
+
       <Button title={"Voltar"} />
     </Container>
   );
