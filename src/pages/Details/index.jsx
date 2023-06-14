@@ -1,4 +1,4 @@
-import { Container, Links } from "./style";
+import { Container, Links, Content } from "./style";
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
 import { Section } from "../../components/Section";
@@ -9,27 +9,35 @@ function Index() {
   return (
     <Container>
       <Header />
-      <ButtonText title="Excluir nota"/>
-      <Section title="Links úteis">
-        <Links>
-          <li>
-            <a href="#">link teste </a>
-          </li>
-          <li>
-            <a href="#">testando</a>
-          </li>
-          <li>
-            <a href="#">Coisa nova</a>
-          </li>
-        </Links>
-      </Section>
 
-      <Section title="Marcadores">
-        <Tag title="react" />
-        <Tag title="node" />
-      </Section>
+      <main>
+        <Content>
+          <ButtonText title="Excluir nota" />
+          <h1>Introdução ao React.js</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum, repellendus corrupti tenetur ratione qui ducimus nostrum error assumenda reprehenderit adipisci Dignissimos illum, repellendus corrupti tenetur ratione qui ducimus nostrum error assumenda reprehenderit adipisci Dignissimos illum, repellendus corrupti tenetur ratione qui ducimus nostrum error assumenda reprehenderit adipisci inventore soluta deleniti odit sint commodi. Ipsam, porro similique?</p>
 
-      <Button title={"Voltar"} />
+          <Section title="Links úteis">
+            <Links>
+              <li>
+                <a href="#">link teste </a>
+              </li>
+              <li>
+                <a href="#">testando</a>
+              </li>
+              <li>
+                <a href="#">Coisa nova</a>
+              </li>
+            </Links>
+          </Section>
+
+          <Section title="Marcadores">
+            <Tag title="react" />
+            <Tag title="node" />
+          </Section>
+
+          <Button title={"Voltar"} />
+        </Content>
+      </main>
     </Container>
   );
 }
