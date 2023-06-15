@@ -25,6 +25,8 @@ export function SingIn() {
                 />
 
                 <Button title="Entrar"/>
+
+                <a href="#">Criar conta</a>
             </Form>
        </Container> 
     )
