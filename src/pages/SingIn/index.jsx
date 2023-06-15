@@ -1,6 +1,6 @@
 import { FiMail, FiLock } from 'react-icons/fi'
 
-import { Container, Form } from './styles.js';
+import { Container, Form, Background } from './styles.js';
 import { Button} from '../../components/Button'
 import { Input } from '../../components/Input'
 
@@ -28,6 +28,7 @@ export function SingIn() {
 
                 <a href="#">Criar conta</a>
             </Form>
+            <Background/>
        </Container> 
     )
 }
