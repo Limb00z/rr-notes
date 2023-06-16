@@ -11,3 +11,22 @@ export const Container = styled.div`
     "header"
     "content";
 `;
+
+export const Form = styled.form`
+    max-width: 550px;
+    margin: 38px auto;
+
+    >header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 36px;
+
+        a{
+            font-size: 20px;
+            color: ${({theme}) => theme.COLORS.GRAY_100} ;
+        }
+    }
+
+`;
