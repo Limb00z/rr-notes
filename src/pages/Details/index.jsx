@@ -5,7 +5,7 @@ import { Section } from "../../components/Section";
 import { ButtonText } from "../../components/ButtonText";
 import { Tag } from "../../components/Tag";
 
-function Index() {
+export function Details() {
   return (
     <Container>
       <Header />
@@ -41,5 +41,3 @@ function Index() {
     </Container>
   );
 }
-
-export default Index;
